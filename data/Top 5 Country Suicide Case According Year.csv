@@ -1,0 +1,295 @@
+country,sex,year,suicides_no
+France,female,1985,3603
+France,female,1986,3657
+France,female,1987,3574
+France,female,1988,3365
+France,female,1989,3372
+France,female,1990,3225
+France,female,1991,3281
+France,female,1992,3202
+France,female,1993,3390
+France,female,1994,3169
+France,female,1995,3214
+France,female,1996,3105
+France,female,1997,3040
+France,female,1998,2763
+France,female,1999,2841
+France,female,2000,2874
+France,female,2001,2789
+France,female,2002,2915
+France,female,2003,2833
+France,female,2004,2949
+France,female,2005,2884
+France,female,2006,2830
+France,female,2007,2708
+France,female,2008,2734
+France,female,2009,2734
+France,female,2010,2738
+France,female,2011,2618
+France,female,2012,2417
+France,female,2013,2375
+France,female,2014,2220
+France,male,1985,8898
+France,male,1986,8872
+France,male,1987,8587
+France,male,1988,8234
+France,male,1989,8343
+France,male,1990,8178
+France,male,1991,8221
+France,male,1992,8442
+France,male,1993,8861
+France,male,1994,8872
+France,male,1995,8605
+France,male,1996,8174
+France,male,1997,8099
+France,male,1998,7771
+France,male,1999,7427
+France,male,2000,7975
+France,male,2001,7660
+France,male,2002,7728
+France,male,2003,8038
+France,male,2004,7855
+France,male,2005,7829
+France,male,2006,7593
+France,male,2007,7419
+France,male,2008,7619
+France,male,2009,7765
+France,male,2010,7641
+France,male,2011,7790
+France,male,2012,7326
+France,male,2013,7225
+France,male,2014,6661
+Japan,female,1985,8012
+Japan,female,1986,9134
+Japan,female,1987,8520
+Japan,female,1988,8490
+Japan,female,1989,8167
+Japan,female,1990,7754
+Japan,female,1991,7380
+Japan,female,1992,7360
+Japan,female,1993,6959
+Japan,female,1994,6852
+Japan,female,1995,7170
+Japan,female,1996,7266
+Japan,female,1997,7574
+Japan,female,1998,9380
+Japan,female,1999,8986
+Japan,female,2000,8574
+Japan,female,2001,8264
+Japan,female,2002,8248
+Japan,female,2003,8691
+Japan,female,2004,8270
+Japan,female,2005,8299
+Japan,female,2006,8486
+Japan,female,2007,8798
+Japan,female,2008,8668
+Japan,female,2009,8508
+Japan,female,2010,8506
+Japan,female,2011,8985
+Japan,female,2012,7936
+Japan,female,2013,7910
+Japan,female,2014,7537
+Japan,female,2015,6946
+Japan,male,1985,15245
+Japan,male,1986,16350
+Japan,male,1987,15143
+Japan,male,1988,14186
+Japan,male,1989,12846
+Japan,male,1990,12248
+Japan,male,1991,12400
+Japan,male,1992,13396
+Japan,male,1993,13394
+Japan,male,1994,13892
+Japan,male,1995,14079
+Japan,male,1996,14701
+Japan,male,1997,15706
+Japan,male,1998,22078
+Japan,male,1999,22129
+Japan,male,2000,21415
+Japan,male,2001,20868
+Japan,male,2002,21467
+Japan,male,2003,23190
+Japan,male,2004,21764
+Japan,male,2005,22070
+Japan,male,2006,21283
+Japan,male,2007,21867
+Japan,male,2008,21405
+Japan,male,2009,22015
+Japan,male,2010,20905
+Japan,male,2011,19781
+Japan,male,2012,18402
+Japan,male,2013,18081
+Japan,male,2014,16820
+Japan,male,2015,16146
+Russian Federation,female,1989,8548
+Russian Federation,female,1990,8742
+Russian Federation,female,1991,8460
+Russian Federation,female,1992,9129
+Russian Federation,female,1993,10096
+Russian Federation,female,1994,10388
+Russian Federation,female,1995,10633
+Russian Federation,female,1996,9685
+Russian Federation,female,1997,9494
+Russian Federation,female,1998,8971
+Russian Federation,female,1999,9909
+Russian Federation,female,2000,9099
+Russian Federation,female,2001,9006
+Russian Federation,female,2002,9057
+Russian Federation,female,2003,8450
+Russian Federation,female,2004,8202
+Russian Federation,female,2005,7464
+Russian Federation,female,2006,7227
+Russian Federation,female,2007,7341
+Russian Federation,female,2008,6925
+Russian Federation,female,2009,6485
+Russian Federation,female,2010,5795
+Russian Federation,female,2011,5568
+Russian Federation,female,2012,5454
+Russian Federation,female,2013,4976
+Russian Federation,female,2014,4655
+Russian Federation,female,2015,4571
+Russian Federation,male,1989,29373
+Russian Federation,male,1990,30286
+Russian Federation,male,1991,30821
+Russian Federation,male,1992,36794
+Russian Federation,male,1993,45750
+Russian Federation,male,1994,51032
+Russian Federation,male,1995,49915
+Russian Federation,male,1996,47826
+Russian Federation,male,1997,45252
+Russian Federation,male,1998,42547
+Russian Federation,male,1999,47065
+Russian Federation,male,2000,47520
+Russian Federation,male,2001,47952
+Russian Federation,male,2002,45967
+Russian Federation,male,2003,42995
+Russian Federation,male,2004,40894
+Russian Federation,male,2005,38338
+Russian Federation,male,2006,35387
+Russian Federation,male,2007,33808
+Russian Federation,male,2008,31286
+Russian Federation,male,2009,30923
+Russian Federation,male,2010,27561
+Russian Federation,male,2011,25470
+Russian Federation,male,2012,24189
+Russian Federation,male,2013,23714
+Russian Federation,male,2014,21886
+Russian Federation,male,2015,20861
+Ukraine,female,1987,2593
+Ukraine,female,1988,2508
+Ukraine,female,1989,2591
+Ukraine,female,1990,2416
+Ukraine,female,1991,2362
+Ukraine,female,1992,2538
+Ukraine,female,1993,2605
+Ukraine,female,1994,2763
+Ukraine,female,1995,2632
+Ukraine,female,1996,2665
+Ukraine,female,1997,2793
+Ukraine,female,1998,2841
+Ukraine,female,1999,2637
+Ukraine,female,2000,2633
+Ukraine,female,2001,2192
+Ukraine,female,2002,2169
+Ukraine,female,2003,2150
+Ukraine,female,2004,1865
+Ukraine,female,2005,1761
+Ukraine,female,2006,1713
+Ukraine,female,2007,1629
+Ukraine,female,2008,1675
+Ukraine,female,2009,1724
+Ukraine,female,2010,1579
+Ukraine,female,2011,1664
+Ukraine,female,2012,1697
+Ukraine,female,2014,1556
+Ukraine,female,2015,1426
+Ukraine,male,1987,7457
+Ukraine,male,1988,7243
+Ukraine,male,1989,8296
+Ukraine,male,1990,8229
+Ukraine,male,1991,8338
+Ukraine,male,1992,9128
+Ukraine,male,1993,9864
+Ukraine,male,1994,11063
+Ukraine,male,1995,11909
+Ukraine,male,1996,12495
+Ukraine,male,1997,12110
+Ukraine,male,1998,11948
+Ukraine,male,1999,11726
+Ukraine,male,2000,11834
+Ukraine,male,2001,10939
+Ukraine,male,2002,10367
+Ukraine,male,2003,10163
+Ukraine,male,2004,9391
+Ukraine,male,2005,8860
+Ukraine,male,2006,8300
+Ukraine,male,2007,8403
+Ukraine,male,2008,7779
+Ukraine,male,2009,7991
+Ukraine,male,2010,7510
+Ukraine,male,2011,7309
+Ukraine,male,2012,7361
+Ukraine,male,2014,6412
+Ukraine,male,2015,6148
+United States,female,1985,6308
+United States,female,1986,6677
+United States,female,1987,6522
+United States,female,1988,6327
+United States,female,1989,6128
+United States,female,1990,6179
+United States,female,1991,6038
+United States,female,1992,6023
+United States,female,1993,6092
+United States,female,1994,5966
+United States,female,1995,5914
+United States,female,1996,5899
+United States,female,1997,6041
+United States,female,1998,6037
+United States,female,1999,5741
+United States,female,2000,5732
+United States,female,2001,5949
+United States,female,2002,6246
+United States,female,2003,6281
+United States,female,2004,6873
+United States,female,2005,6729
+United States,female,2006,6992
+United States,female,2007,7329
+United States,female,2008,7583
+United States,female,2009,7821
+United States,female,2010,8087
+United States,female,2011,8512
+United States,female,2012,8819
+United States,female,2013,9094
+United States,female,2014,9659
+United States,female,2015,10199
+United States,male,1985,23138
+United States,male,1986,24215
+United States,male,1987,24261
+United States,male,1988,24061
+United States,male,1989,24090
+United States,male,1990,24716
+United States,male,1991,24752
+United States,male,1992,24448
+United States,male,1993,24992
+United States,male,1994,25157
+United States,male,1995,25358
+United States,male,1996,24980
+United States,male,1997,24476
+United States,male,1998,24521
+United States,male,1999,23442
+United States,male,2000,23611
+United States,male,2001,24658
+United States,male,2002,25399
+United States,male,2003,25196
+United States,male,2004,25555
+United States,male,2005,25900
+United States,male,2006,26300
+United States,male,2007,27267
+United States,male,2008,28447
+United States,male,2009,29079
+United States,male,2010,30275
+United States,male,2011,30996
+United States,male,2012,31777
+United States,male,2013,32049
+United States,male,2014,33110
+United States,male,2015,33990
