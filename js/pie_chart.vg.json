@@ -1,0 +1,18 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Sucide According to sex",
+    "width": "container",
+    "data": {
+        "url": "https://raw.githubusercontent.com/ZLim0036/FIT-3179-Project-2/main/data/Suicide%20Cases%20Accoridng%20to%20sex.csv"
+      },
+    "mark": "arc",
+    "encoding": {
+      "theta": {"field": "suicides_no", "type": "quantitative"},
+      "color": {"field": "sex" ,"type": "nominal","title":"Sex"},
+      "tooltip": [
+        {"field": "sex", "type": "nominal", "title": "Sex"},
+        {"field": "suicides_no", "type": "quantitative","title": "Total Sucide Case"}
+      ]
+      }
+    }
+  

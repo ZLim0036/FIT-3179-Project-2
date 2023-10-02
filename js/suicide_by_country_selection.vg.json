@@ -1,0 +1,69 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/ZLim0036/FIT-3179-Project-2/main/data/Top%205%20Country%20Suicide%20Case%20According%20Year.csv"
+    },
+    "title":"Suicdies Cases of Top 5 Country Across Year",
+    "width": "container",
+    "params": [{
+      "name": "country_selection",
+      "bind":{
+        "input": "select",
+        "options":[
+          null,
+          "France",
+          "Japan",
+          "Russian Federation",
+          "Ukraine",
+          "United States"
+        ],
+        "labels": [
+          "Show All",
+          "France",
+          "Japan",
+          "Russian Federation",
+          "Ukraine",
+          "United States"
+        ],
+        "name": "Select Country: "
+      }
+    },
+    {"name": "year_above",
+      "value":1985,
+      "bind":{
+        "input": "range",
+        "min": 1985,
+        "max": 2016,
+        "step": 1,
+        "name": "From Year: "
+      }
+    }
+  ],
+    "transform": [
+      {"filter": "country_selection == null || datum.country == country_selection"},
+      {"filter":{"field": "year", "range":[{"year": "year_above"},{"year": 2016}]}}
+    ],
+    "mark": {
+      "type": "line",
+      "interpolate": "monotone"
+    },
+    "encoding": {
+      "x": {
+        "field": "year",
+        "timeUnit": "year",
+        "title":"Year"
+      },
+      "y": {
+        "field": "suicides_no",
+        "aggregate": "sum",
+        "title": "Sum of Cases"
+      },
+      "color": {
+        "type": "nominal",
+        "field": "country",
+        "title": "Country",
+        "legend":{"orient": "none", "legendX":10, "legendY":5}
+      }
+    },
+    "config": {}
+  }

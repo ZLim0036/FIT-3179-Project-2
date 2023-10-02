@@ -1,0 +1,50 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/ZLim0036/FIT-3179-Project-2/main/data/Suicide%20Cases%20According%20to%20sex%20and%20year.csv"
+    },
+    "title":"Suicdies Cases Across Year",
+    "width": "container",
+    "params": [
+      {"name": "year_above",
+      "value":1985,
+      "bind":{
+        "input": "range",
+        "min": 1985,
+        "max": 2016,
+        "step": 1,
+        "name": "From Year: "
+      }
+    }
+    ],
+    "transform": [
+      {
+        "filter":{"field": "year", "range":[{"year": "year_above"},{"year": 2016}]}
+      }
+    ],
+    "mark": {
+      "type": "line",
+      "interpolate": "monotone"
+    },
+    "encoding": {
+      "x": {
+        "field": "year",
+        "timeUnit":"year",
+        "title":"Year"
+      },
+      "y": {
+        "field": "suicides_no",
+        "aggregate": "sum",
+        "title": "Sum of Cases"
+      },
+      "color": {
+        "type": "nominal",
+        "field": "sex",
+        "title": "Year",
+        "legend":{"orient": "none", "legendX":10, "legendY":5}
+      }
+    
+    },
+    
+    "config": {}
+  }

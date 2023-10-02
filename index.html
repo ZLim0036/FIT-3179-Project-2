@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.25.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.12.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.22.1"></script>
+  
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+
+
+</head>
+<body>
+  
+<div id="choropleth_map">
+  <h2> This will be the map</h2>
+    <p>Some text..</p>
+</div>
+<div class="row">
+  <div class="column" id="pie">
+    <h2>Number 1 </h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" id="stack-bar">
+    <h2>Number 2</h2>
+    <p>Some text..</p>
+  </div>
+</div>
+<div class="row">
+  <div class="column" id="line-chart"">
+    <h2>Number 3 </h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" id="selection-line-chart">
+  </div>
+</div>
+<title>Sucide Case Around the World</title>
+<script type="text/javascript">
+
+  var spec2 = "js/choropleth_map_country.vg.json";
+  vegaEmbed('#choropleth_map', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  var pieChart = "js/pie_chart.vg.json";
+  vegaEmbed('#pie', pieChart).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  var stackBar = "js/stack_bar.vg.json";
+  vegaEmbed('#stack-bar', stackBar).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  var lineChart = "js/sucide_case_year.vg.json";
+  vegaEmbed('#line-chart', lineChart).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  var selectionLineChart = "js/suicide_by_country_selection.vg.json";
+  vegaEmbed('#selection-line-chart', selectionLineChart).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+</script>
+
+</body>
+</html>
+  

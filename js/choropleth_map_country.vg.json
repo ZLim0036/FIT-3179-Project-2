@@ -1,0 +1,52 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Suicides Rates Around the World",
+  "width": 800,
+  "height": 400,
+  "projection": {"type": "equalEarth"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/ZLim0036/FIT-3179-Project-2/main/js/ne_110m.topojson",
+    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+  },
+  "layer":[
+    {
+      "transform": [
+        {"calculate":"datum.properties.NAME", "as": "Country"},
+        {"calculate": "0", "as": "suicides/100k"}
+      ],
+      "mark": {"type": "geoshape", "fill": "lemonchiffon", "stroke": "white"},
+      "encoding": {
+        "tooltip": [
+          {"field": "Country","title":"Country"},
+          {"field": "suicides/100k", "type": "quantitative","title": "Suicides per 100k Population"}
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "lookup": "properties.NAME",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/ZLim0036/FIT-3179-Project-2/main/data/Suicide_Rates_and_gdp.csv"
+            },
+            "key": "country",
+            "fields": ["suicides/100k"]
+          }
+        }
+      ],
+      "mark": {"type": "geoshape"},
+      "encoding": {
+        "color": {
+          "field": "suicides/100k",
+          "type": "quantitative",
+          "title": "Suicides per 100k Population"
+        },
+        "tooltip": [
+          {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+          {"field": "suicides/100k", "type": "quantitative","title": "Suicides per 100k Population"}
+        ]
+      }
+    }
+  ]
+}
