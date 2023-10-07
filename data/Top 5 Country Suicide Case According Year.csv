@@ -1,295 +1,148 @@
-,country,year,suicides_no
-0,France,1985,3603
-1,France,1986,3657
-2,France,1987,3574
-3,France,1988,3365
-4,France,1989,3372
-5,France,1990,3225
-6,France,1991,3281
-7,France,1992,3202
-8,France,1993,3390
-9,France,1994,3169
-10,France,1995,3214
-11,France,1996,3105
-12,France,1997,3040
-13,France,1998,2763
-14,France,1999,2841
-15,France,2000,2874
-16,France,2001,2789
-17,France,2002,2915
-18,France,2003,2833
-19,France,2004,2949
-20,France,2005,2884
-21,France,2006,2830
-22,France,2007,2708
-23,France,2008,2734
-24,France,2009,2734
-25,France,2010,2738
-26,France,2011,2618
-27,France,2012,2417
-28,France,2013,2375
-29,France,2014,2220
-30,France,1985,8898
-31,France,1986,8872
-32,France,1987,8587
-33,France,1988,8234
-34,France,1989,8343
-35,France,1990,8178
-36,France,1991,8221
-37,France,1992,8442
-38,France,1993,8861
-39,France,1994,8872
-40,France,1995,8605
-41,France,1996,8174
-42,France,1997,8099
-43,France,1998,7771
-44,France,1999,7427
-45,France,2000,7975
-46,France,2001,7660
-47,France,2002,7728
-48,France,2003,8038
-49,France,2004,7855
-50,France,2005,7829
-51,France,2006,7593
-52,France,2007,7419
-53,France,2008,7619
-54,France,2009,7765
-55,France,2010,7641
-56,France,2011,7790
-57,France,2012,7326
-58,France,2013,7225
-59,France,2014,6661
-60,Japan,1985,8012
-61,Japan,1986,9134
-62,Japan,1987,8520
-63,Japan,1988,8490
-64,Japan,1989,8167
-65,Japan,1990,7754
-66,Japan,1991,7380
-67,Japan,1992,7360
-68,Japan,1993,6959
-69,Japan,1994,6852
-70,Japan,1995,7170
-71,Japan,1996,7266
-72,Japan,1997,7574
-73,Japan,1998,9380
-74,Japan,1999,8986
-75,Japan,2000,8574
-76,Japan,2001,8264
-77,Japan,2002,8248
-78,Japan,2003,8691
-79,Japan,2004,8270
-80,Japan,2005,8299
-81,Japan,2006,8486
-82,Japan,2007,8798
-83,Japan,2008,8668
-84,Japan,2009,8508
-85,Japan,2010,8506
-86,Japan,2011,8985
-87,Japan,2012,7936
-88,Japan,2013,7910
-89,Japan,2014,7537
-90,Japan,2015,6946
-91,Japan,1985,15245
-92,Japan,1986,16350
-93,Japan,1987,15143
-94,Japan,1988,14186
-95,Japan,1989,12846
-96,Japan,1990,12248
-97,Japan,1991,12400
-98,Japan,1992,13396
-99,Japan,1993,13394
-100,Japan,1994,13892
-101,Japan,1995,14079
-102,Japan,1996,14701
-103,Japan,1997,15706
-104,Japan,1998,22078
-105,Japan,1999,22129
-106,Japan,2000,21415
-107,Japan,2001,20868
-108,Japan,2002,21467
-109,Japan,2003,23190
-110,Japan,2004,21764
-111,Japan,2005,22070
-112,Japan,2006,21283
-113,Japan,2007,21867
-114,Japan,2008,21405
-115,Japan,2009,22015
-116,Japan,2010,20905
-117,Japan,2011,19781
-118,Japan,2012,18402
-119,Japan,2013,18081
-120,Japan,2014,16820
-121,Japan,2015,16146
-122,Russian Federation,1989,8548
-123,Russian Federation,1990,8742
-124,Russian Federation,1991,8460
-125,Russian Federation,1992,9129
-126,Russian Federation,1993,10096
-127,Russian Federation,1994,10388
-128,Russian Federation,1995,10633
-129,Russian Federation,1996,9685
-130,Russian Federation,1997,9494
-131,Russian Federation,1998,8971
-132,Russian Federation,1999,9909
-133,Russian Federation,2000,9099
-134,Russian Federation,2001,9006
-135,Russian Federation,2002,9057
-136,Russian Federation,2003,8450
-137,Russian Federation,2004,8202
-138,Russian Federation,2005,7464
-139,Russian Federation,2006,7227
-140,Russian Federation,2007,7341
-141,Russian Federation,2008,6925
-142,Russian Federation,2009,6485
-143,Russian Federation,2010,5795
-144,Russian Federation,2011,5568
-145,Russian Federation,2012,5454
-146,Russian Federation,2013,4976
-147,Russian Federation,2014,4655
-148,Russian Federation,2015,4571
-149,Russian Federation,1989,29373
-150,Russian Federation,1990,30286
-151,Russian Federation,1991,30821
-152,Russian Federation,1992,36794
-153,Russian Federation,1993,45750
-154,Russian Federation,1994,51032
-155,Russian Federation,1995,49915
-156,Russian Federation,1996,47826
-157,Russian Federation,1997,45252
-158,Russian Federation,1998,42547
-159,Russian Federation,1999,47065
-160,Russian Federation,2000,47520
-161,Russian Federation,2001,47952
-162,Russian Federation,2002,45967
-163,Russian Federation,2003,42995
-164,Russian Federation,2004,40894
-165,Russian Federation,2005,38338
-166,Russian Federation,2006,35387
-167,Russian Federation,2007,33808
-168,Russian Federation,2008,31286
-169,Russian Federation,2009,30923
-170,Russian Federation,2010,27561
-171,Russian Federation,2011,25470
-172,Russian Federation,2012,24189
-173,Russian Federation,2013,23714
-174,Russian Federation,2014,21886
-175,Russian Federation,2015,20861
-176,Ukraine,1987,2593
-177,Ukraine,1988,2508
-178,Ukraine,1989,2591
-179,Ukraine,1990,2416
-180,Ukraine,1991,2362
-181,Ukraine,1992,2538
-182,Ukraine,1993,2605
-183,Ukraine,1994,2763
-184,Ukraine,1995,2632
-185,Ukraine,1996,2665
-186,Ukraine,1997,2793
-187,Ukraine,1998,2841
-188,Ukraine,1999,2637
-189,Ukraine,2000,2633
-190,Ukraine,2001,2192
-191,Ukraine,2002,2169
-192,Ukraine,2003,2150
-193,Ukraine,2004,1865
-194,Ukraine,2005,1761
-195,Ukraine,2006,1713
-196,Ukraine,2007,1629
-197,Ukraine,2008,1675
-198,Ukraine,2009,1724
-199,Ukraine,2010,1579
-200,Ukraine,2011,1664
-201,Ukraine,2012,1697
-202,Ukraine,2014,1556
-203,Ukraine,2015,1426
-204,Ukraine,1987,7457
-205,Ukraine,1988,7243
-206,Ukraine,1989,8296
-207,Ukraine,1990,8229
-208,Ukraine,1991,8338
-209,Ukraine,1992,9128
-210,Ukraine,1993,9864
-211,Ukraine,1994,11063
-212,Ukraine,1995,11909
-213,Ukraine,1996,12495
-214,Ukraine,1997,12110
-215,Ukraine,1998,11948
-216,Ukraine,1999,11726
-217,Ukraine,2000,11834
-218,Ukraine,2001,10939
-219,Ukraine,2002,10367
-220,Ukraine,2003,10163
-221,Ukraine,2004,9391
-222,Ukraine,2005,8860
-223,Ukraine,2006,8300
-224,Ukraine,2007,8403
-225,Ukraine,2008,7779
-226,Ukraine,2009,7991
-227,Ukraine,2010,7510
-228,Ukraine,2011,7309
-229,Ukraine,2012,7361
-230,Ukraine,2014,6412
-231,Ukraine,2015,6148
-232,United States,1985,6308
-233,United States,1986,6677
-234,United States,1987,6522
-235,United States,1988,6327
-236,United States,1989,6128
-237,United States,1990,6179
-238,United States,1991,6038
-239,United States,1992,6023
-240,United States,1993,6092
-241,United States,1994,5966
-242,United States,1995,5914
-243,United States,1996,5899
-244,United States,1997,6041
-245,United States,1998,6037
-246,United States,1999,5741
-247,United States,2000,5732
-248,United States,2001,5949
-249,United States,2002,6246
-250,United States,2003,6281
-251,United States,2004,6873
-252,United States,2005,6729
-253,United States,2006,6992
-254,United States,2007,7329
-255,United States,2008,7583
-256,United States,2009,7821
-257,United States,2010,8087
-258,United States,2011,8512
-259,United States,2012,8819
-260,United States,2013,9094
-261,United States,2014,9659
-262,United States,2015,10199
-263,United States,1985,23138
-264,United States,1986,24215
-265,United States,1987,24261
-266,United States,1988,24061
-267,United States,1989,24090
-268,United States,1990,24716
-269,United States,1991,24752
-270,United States,1992,24448
-271,United States,1993,24992
-272,United States,1994,25157
-273,United States,1995,25358
-274,United States,1996,24980
-275,United States,1997,24476
-276,United States,1998,24521
-277,United States,1999,23442
-278,United States,2000,23611
-279,United States,2001,24658
-280,United States,2002,25399
-281,United States,2003,25196
-282,United States,2004,25555
-283,United States,2005,25900
-284,United States,2006,26300
-285,United States,2007,27267
-286,United States,2008,28447
-287,United States,2009,29079
-288,United States,2010,30275
-289,United States,2011,30996
-290,United States,2012,31777
-291,United States,2013,32049
-292,United States,2014,33110
-293,United States,2015,33990
+country,year,suicides_no
+France,1985,12501
+France,1986,12529
+France,1987,12161
+France,1988,11599
+France,1989,11715
+France,1990,11403
+France,1991,11502
+France,1992,11644
+France,1993,12251
+France,1994,12041
+France,1995,11819
+France,1996,11279
+France,1997,11139
+France,1998,10534
+France,1999,10268
+France,2000,10849
+France,2001,10449
+France,2002,10643
+France,2003,10871
+France,2004,10804
+France,2005,10713
+France,2006,10423
+France,2007,10127
+France,2008,10353
+France,2009,10499
+France,2010,10379
+France,2011,10408
+France,2012,9743
+France,2013,9600
+France,2014,8881
+Japan,1985,23257
+Japan,1986,25484
+Japan,1987,23663
+Japan,1988,22676
+Japan,1989,21013
+Japan,1990,20002
+Japan,1991,19780
+Japan,1992,20756
+Japan,1993,20353
+Japan,1994,20744
+Japan,1995,21249
+Japan,1996,21967
+Japan,1997,23280
+Japan,1998,31458
+Japan,1999,31115
+Japan,2000,29989
+Japan,2001,29132
+Japan,2002,29715
+Japan,2003,31881
+Japan,2004,30034
+Japan,2005,30369
+Japan,2006,29769
+Japan,2007,30665
+Japan,2008,30073
+Japan,2009,30523
+Japan,2010,29411
+Japan,2011,28766
+Japan,2012,26338
+Japan,2013,25991
+Japan,2014,24357
+Japan,2015,23092
+Russian Federation,1989,37921
+Russian Federation,1990,39028
+Russian Federation,1991,39281
+Russian Federation,1992,45923
+Russian Federation,1993,55846
+Russian Federation,1994,61420
+Russian Federation,1995,60548
+Russian Federation,1996,57511
+Russian Federation,1997,54746
+Russian Federation,1998,51518
+Russian Federation,1999,56974
+Russian Federation,2000,56619
+Russian Federation,2001,56958
+Russian Federation,2002,55024
+Russian Federation,2003,51445
+Russian Federation,2004,49096
+Russian Federation,2005,45802
+Russian Federation,2006,42614
+Russian Federation,2007,41149
+Russian Federation,2008,38211
+Russian Federation,2009,37408
+Russian Federation,2010,33356
+Russian Federation,2011,31038
+Russian Federation,2012,29643
+Russian Federation,2013,28690
+Russian Federation,2014,26541
+Russian Federation,2015,25432
+Ukraine,1987,10050
+Ukraine,1988,9751
+Ukraine,1989,10887
+Ukraine,1990,10645
+Ukraine,1991,10700
+Ukraine,1992,11666
+Ukraine,1993,12469
+Ukraine,1994,13826
+Ukraine,1995,14541
+Ukraine,1996,15160
+Ukraine,1997,14903
+Ukraine,1998,14789
+Ukraine,1999,14363
+Ukraine,2000,14467
+Ukraine,2001,13131
+Ukraine,2002,12536
+Ukraine,2003,12313
+Ukraine,2004,11256
+Ukraine,2005,10621
+Ukraine,2006,10013
+Ukraine,2007,10032
+Ukraine,2008,9454
+Ukraine,2009,9715
+Ukraine,2010,9089
+Ukraine,2011,8973
+Ukraine,2012,9058
+Ukraine,2014,7968
+Ukraine,2015,7574
+United States,1985,29446
+United States,1986,30892
+United States,1987,30783
+United States,1988,30388
+United States,1989,30218
+United States,1990,30895
+United States,1991,30790
+United States,1992,30471
+United States,1993,31084
+United States,1994,31123
+United States,1995,31272
+United States,1996,30879
+United States,1997,30517
+United States,1998,30558
+United States,1999,29183
+United States,2000,29343
+United States,2001,30607
+United States,2002,31645
+United States,2003,31477
+United States,2004,32428
+United States,2005,32629
+United States,2006,33292
+United States,2007,34596
+United States,2008,36030
+United States,2009,36900
+United States,2010,38362
+United States,2011,39508
+United States,2012,40596
+United States,2013,41143
+United States,2014,42769
+United States,2015,44189
