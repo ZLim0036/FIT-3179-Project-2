@@ -31,20 +31,22 @@
               "url": "https://raw.githubusercontent.com/ZLim0036/FIT-3179-Project-2/main/data/Suicide_Rates_and_gdp.csv"
             },
             "key": "country",
-            "fields": ["suicides/100k"]
+            "fields": ["suicidesNormalised"]
           }
-        }
+        },
+        {"calculate": "datum.suicidesNormalised", "as": "suicides/100k"}
       ],
       "mark": {"type": "geoshape"},
       "encoding": {
         "color": {
           "field": "suicides/100k",
           "type": "quantitative",
-          "title": "Suicides per 100k Population"
+          "title": "Suicides per 100k Population",
+          "scale": {"type": "log"}
         },
         "tooltip": [
           {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-          {"field": "suicides/100k", "type": "quantitative","title": "Suicides per 100k Population"}
+          {"field": "suicides/100k", "type": "quantitative","title": "Suicides per 100k Population","format":".2f"}
         ]
       }
     }
