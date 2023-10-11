@@ -15,35 +15,49 @@
         "step": 1,
         "name": "From Year: "
       }
+    },
+    {
+      "name": "hover",
+      "select": {
+        "type": "point",
+        "fields": ["date"],
+        "nearest": true,
+        "on": "mouseover",
+        "clear": "mouseout"
+      }
     }
     ],
     "transform": [
-      {
-        "filter":{"field": "year", "range":[{"year": "year_above"},{"year": 2016}]}
-      }
+      {"filter":{"field": "year", "range":[{"year": "year_above"},{"year": 2016}]}},
+      {"calculate": "year(datum.year)", "as": "tooltip_year"}
     ],
     "mark": {
-      "type": "line",
+      "type": "area",
       "interpolate": "monotone"
     },
     "encoding": {
       "x": {
         "field": "year",
         "timeUnit":"year",
+        "type": "temporal",
         "title":"Year"
       },
       "y": {
         "field": "suicides_no",
+        "type": "quantitative",
         "aggregate": "sum",
         "title": "Sum of Cases"
       },
       "color": {
         "type": "nominal",
         "field": "sex",
-        "title": "Year",
-        "legend":{"orient": "none", "legendX":10, "legendY":5}
-      }
-    
+        "title": "Sex"
+      },
+      "tooltip":[
+        {"field": "tooltip_year", "type": "ordinal", "title": "Year"},
+        {"field": "sex", "type": "nominal", "title": "Sex"},
+        {"field": "suicides_no", "type": "quantitative","title": "Total Sucide Case","format":","}
+      ]
     },
     
     "config": {}

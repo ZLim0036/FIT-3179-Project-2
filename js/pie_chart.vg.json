@@ -1,17 +1,34 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Sucide According to sex",
+    "title": "Total Suicide Cases According to Sex",
     "width": "container",
     "data": {
         "url": "https://raw.githubusercontent.com/ZLim0036/FIT-3179-Project-2/main/data/Suicide%20Cases%20Accoridng%20to%20sex.csv"
       },
-    "mark": "arc",
+      "layer": [{
+        "mark":{"type": "arc","outerRadius": 110,"innerRadius":50}
+      }, {
+        "mark": {
+          "type": "text",
+          "radius":130,
+          "dy":-20,
+          "align":"center",
+          "fill":"black"
+        },
+        "encoding": {
+          "text": {"field": "Percentage", "type": "quantitative" ,"format":".2%"}
+        }
+      }],
+      "transform": [
+        {"calculate": "datum.suicides_no/6748420","as": "Percentage"}
+      ],
     "encoding": {
       "theta": {"field": "suicides_no", "type": "quantitative"},
       "color": {"field": "sex" ,"type": "nominal","title":"Sex"},
       "tooltip": [
         {"field": "sex", "type": "nominal", "title": "Sex"},
-        {"field": "suicides_no", "type": "quantitative","title": "Total Sucide Case"}
+        {"field": "suicides_no", "type": "quantitative","title": "Total Sucide Case","format":","},
+        {"field": "Percentage", "type": "quantitative","title": "Percentage","format":".2%"}
       ]
       }
     }

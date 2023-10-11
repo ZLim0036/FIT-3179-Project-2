@@ -2,6 +2,10 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title":"Top 5 Country with the Most Suicide Cases",
     "data": {"url": "https://raw.githubusercontent.com/ZLim0036/FIT-3179-Project-2/main/data/Top%205%20Country%20Suicide%20Case%20According%20to%20Age.csv"},
+    "layer": [{
+      "mark": "bar"
+    }
+  ],
     "params": [{
       "name": "age_selection",
       "bind":{
@@ -30,7 +34,7 @@
     "transform": [
       {"filter": "age_selection == null || datum.age == age_selection"}
     ],
-    "mark": "bar",
+    "height":200,
     "width": "container",
     "encoding": {
       "y": {
@@ -39,10 +43,11 @@
         "title": "Country"
       },
       "x": {
-        "aggregate": "sum",
+        "aggregate":"sum",
         "field":"suicides_no",
         "type": "quantitative",
         "title":"Total Suicide Case"
+    
       },
       "color": {
         "field": "age",
@@ -52,7 +57,7 @@
       "tooltip": [
         {"field": "country", "type": "nominal", "title": "Country"},
         {"field": "age", "type": "nominal", "title": "Age Group"},
-        {"field": "suicides_no", "type": "quantitative","title": "Total Sucide Case"}
+        {"field": "suicides_no", "type": "quantitative","title": "Total Sucide Case","format":","}
     ]
   }
   }
