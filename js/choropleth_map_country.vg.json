@@ -56,7 +56,7 @@
           "lookup": "properties.NAME",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/data/countryInfo.csv"
+              "url": "https://raw.githubusercontent.com/ZLim0036/FIT-3179-Project-2/main/data/countryInfo.csv"
             },
             "key": "name",
             "fields": ["latitude", "longitude"]
