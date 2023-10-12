@@ -52,12 +52,13 @@
       "color": {
         "field": "age",
         "type": "nominal",
-        "title": "Age Group"
+        "title": "Age Group",
+        "scale":{"range":["#FD9C25","#64B2FD","#F4A724","#72E5A2","#D15959","#6E76CC"]}
       },
       "tooltip": [
         {"field": "country", "type": "nominal", "title": "Country"},
         {"field": "age", "type": "nominal", "title": "Age Group"},
-        {"field": "suicides_no", "type": "quantitative","title": "Total Sucide Case","format":","}
+        {"field": "suicides_no", "type": "quantitative","title": "Total Suicide Case","format":","}
     ]
   }
   }

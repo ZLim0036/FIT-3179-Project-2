@@ -2,6 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Total Suicide Cases According to Sex",
     "width": "container",
+    "height":250,
     "data": {
         "url": "https://raw.githubusercontent.com/ZLim0036/FIT-3179-Project-2/main/data/Suicide%20Cases%20Accoridng%20to%20sex.csv"
       },

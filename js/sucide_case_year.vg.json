@@ -3,7 +3,7 @@
     "data": {
       "url": "https://raw.githubusercontent.com/ZLim0036/FIT-3179-Project-2/main/data/Suicide%20Cases%20According%20to%20sex%20and%20year.csv"
     },
-    "title":"Suicdies Cases Across Year",
+    "title":"Suicides Cases Across Year",
     "width": "container",
     "params": [
       {"name": "year_above",
@@ -11,7 +11,7 @@
       "bind":{
         "input": "range",
         "min": 1985,
-        "max": 2016,
+        "max": 2014,
         "step": 1,
         "name": "From Year: "
       }
@@ -56,7 +56,7 @@
       "tooltip":[
         {"field": "tooltip_year", "type": "ordinal", "title": "Year"},
         {"field": "sex", "type": "nominal", "title": "Sex"},
-        {"field": "suicides_no", "type": "quantitative","title": "Total Sucide Case","format":","}
+        {"field": "suicides_no", "type": "quantitative","title": "Total Suicide Case","format":","}
       ]
     },
     

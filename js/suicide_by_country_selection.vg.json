@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {"url": "https://raw.githubusercontent.com/ZLim0036/FIT-3179-Project-2/main/data/Top%205%20Country%20Suicide%20Case%20According%20Year.csv"},
-  "title":"Suicdies Cases of Top 5 Country Across Year",
+  "title":"Suicides Cases of Top 5 Country Across Year",
   "width": "container",
   "encoding": {"x": {"field": "year", "type": "temporal","title":"Year"}},
   "layer": [
@@ -73,7 +73,7 @@
       "bind":{
         "input": "range",
         "min": 1985,
-        "max": 2016,
+        "max": 2014,
         "step": 1,
         "name": "From Year: "
       }
